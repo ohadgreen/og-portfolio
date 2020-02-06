@@ -1,0 +1,38 @@
+.header-grid {
+    background: darkseagreen;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "hello ph ph ph ph blog about contact";
+    align-items: center;
+}
+
+.header-grid > a {
+    text-decoration: none;
+    margin: 0.6rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.header-grid > a:hover {
+    text-decoration: none;
+    margin: 0.6rem;
+    color: orange;
+    font-size: 0.8rem;
+}
+
+.hello {
+    grid-area: hello;
+    font-size: 1.5rem;
+}
+
+.blog {
+    grid-area: blog;
+
+}
+.about {
+    grid-area: about;
+}
+.contact {
+    grid-area: contact;
+}
