@@ -11,7 +11,22 @@
     text-decoration: none;
     margin: 0.6rem;
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+.hello {
+    grid-area: hello;
+    font-size: 2rem;
+}
+
+.blog {
+    grid-area: blog;
+}
+.about {
+    grid-area: about;
+}
+.contact {
+    grid-area: contact;
 }
 
 .header-grid > a:hover {
@@ -19,20 +34,4 @@
     margin: 0.6rem;
     color: orange;
     font-size: 0.8rem;
-}
-
-.hello {
-    grid-area: hello;
-    font-size: 1.5rem;
-}
-
-.blog {
-    grid-area: blog;
-
-}
-.about {
-    grid-area: about;
-}
-.contact {
-    grid-area: contact;
 }
